@@ -1,0 +1,39 @@
+/* Herencia
+
+ p {
+  color: red;
+}
+
+a {
+  color: inherit;
+}  */
+
+/* Peso de los estilos
+
+    Etiqueta: 1
+    Clases y pseudoclases: 10
+    Id: 100
+    Estilo en linea: 1000
+    Important: Les gana a todos los estilos en peso
+*/
+
+#parrafo {
+  color: blueviolet;
+}
+
+.parrafo {
+  color: yellow;
+}
+
+p {
+  color: red;
+}
+
+a {
+  color: inherit;
+}
+
+/* Cambia a este color ya que se lee el codigo en cascada. Osea de arriba a abajo */
+p {
+  color: green;
+}
