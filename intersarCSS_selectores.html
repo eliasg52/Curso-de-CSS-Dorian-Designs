@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formas de insertar CSS</title>
+    <!--    Insertar CSS en la cabecera, no recomendable salvo que tengamos una sola pagina o para pruebas
+     <style>
+      p {
+        color: red;
+      }
+    </style> -->
+
+    <!-- Esta es la manera mas recomendable de incluir CSS a HTML ya que se puede reutilizar el codigo -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- En css plano no es muy recomendable pero si en Sass
+        <style>
+        @import url("estilos.css");
+    </style> -->
+  </head>
+  <body>
+    <!-- Estilo en linea, no recomendable para estilos estaticos, solo para estilos que se tienen que calcular en tiempo real por ejemplo con js -->
+    <!--     <h1 style="color: blue;">Soy un encabezado principal</h1> -->
+    <h1>Soy un encabezado principal</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam at alias
+      iure ratione nihil autem suscipit, placeat dicta rerum aliquam
+      necessitatibus reprehenderit deleniti, earum qui sunt? Unde commodi
+      officia perspiciatis?
+    </p>
+
+    <h1 class="titulo">Soy un encabezado principal</h1>
+    <p class="texto">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam at alias
+      iure ratione nihil autem suscipit, placeat dicta rerum aliquam
+      necessitatibus reprehenderit deleniti, earum qui sunt? Unde commodi
+      officia perspiciatis?
+    </p>
+
+    <a href="#" class="rojo verde">Enlace 1 rojo verde</a>
+    <a href="#" class="rojo">Enlace 2 rojo</a>
+    <a href="" class="verde">Enlace 3 verde</a>
+    <a href="#" class="verde rojo">Enlace 4 verde rojo</a>
+
+    <h1>Titulo</h1>
+    <h2>Subtitulo</h2>
+    <h2>Otro subtitulo</h2>
+    <h3>Otro subtitulo mas</h3>
+
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque corporis
+        temporibus animi nam <span>SOY UN SPAN</span> unde in fugiat voluptas?
+        Suscipit minima maiores laborum! Rem ut ipsum voluptate? Blanditiis,
+        doloribus a. Quibusdam, earum.
+      </p>
+    </div>
+  </body>
+</html>
