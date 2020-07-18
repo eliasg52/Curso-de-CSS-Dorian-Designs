@@ -20,66 +20,66 @@ border-bottom-(width | style | color)
 border-left-(width | style | color)
 */
 
-[class*=box] {
-    width: 200px;
-    height: 200px;
-    margin: 2em;
+[class*='box'] {
+  width: 200px;
+  height: 200px;
+  margin: 2em;
 }
 
 .box1 {
-    background: yellowgreen;
-    border: 5px solid red;
-    border-top-width: 200px;
-    border-top-color: transparent;
+  background: yellowgreen;
+  border: 5px solid red;
+  border-top-width: 200px;
+  border-top-color: transparent;
 }
 
 .box2 {
-    background: lightseagreen;
-    border-left-width: 5px;
-    border-left-style: dotted;
-    border-left-color: blue;
+  background: lightseagreen;
+  border-left-width: 5px;
+  border-left-style: dotted;
+  border-left-color: blue;
 }
 
 .box3 {
-    background: lightcoral;
-    border: 5px dashed blue;
+  background: lightcoral;
+  border: 5px dashed blue;
 }
 
 .box4 {
-    background: yellowgreen;
-    border: 5px double blue;
+  background: yellowgreen;
+  border: 5px double blue;
 }
 
 .box5 {
-    background: lightseagreen;
-    border: 5px groove blue;
+  background: lightseagreen;
+  border: 5px groove blue;
 }
 
 .box6 {
-    background: lightcoral;
-    border: 5px ridge blue;
+  background: lightcoral;
+  border: 5px ridge blue;
 }
 
 .box7 {
-    background: yellowgreen;
-    border: 5px inset blue;
+  background: yellowgreen;
+  border: 5px inset blue;
 }
 
 .box8 {
-    background: lightseagreen;
-    border: 5px outset blue;
+  background: lightseagreen;
+  border: 5px outset blue;
 }
 
 /* initial es la propiedad que tuviera por defecto, en este caso es none */
 
 .box9 {
-    background: lightcoral;
-    border: 5px initial blue;
+  background: lightcoral;
+  border: 5px initial blue;
 }
 
 /* inherit es la propiedad heredada, si el padre tuviera border pues cogería ese estilo */
 
 .box10 {
-    background: yellowgreen;
-    border: 5px inherit blue;
+  background: yellowgreen;
+  border: 5px inherit blue;
 }
