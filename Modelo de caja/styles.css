@@ -1,0 +1,36 @@
+/* Por mas que lo que le dije que ocupe sobre espacio para otro elemento, no aparece nada al lado xq sigue siendo de bloque
+y ese espacio esta reservado */
+
+h1 {
+  background: lightblue;
+  height: 150px;
+  width: 100px;
+}
+
+/* Lo mismo sucede con el h2 */
+h2 {
+  background: purple;
+  width: 50px;
+}
+
+/* No se modifica su tamanio xq es un elemento en linea, solo el tamanio de su contenido, en este caso las letras*/
+a {
+  background: lime;
+  width: 300px;
+  font-size: 50px;
+}
+
+.box-1 {
+  width: 100px;
+  height: 100px;
+  background: lime;
+  padding: 10px;
+  border: 10px solid blue; /* sus dimensiones cuentan para el tamanio total */
+  outline: 10px solid red; /* sus dimensiones no cuentan para el temanio total, se utiliza mas que nada para ubicar elementos sin modificar el lugar de ellos ya que no los mueve */
+}
+
+.box-2 {
+  width: 100px;
+  height: 100px;
+  background: darkred;
+}
