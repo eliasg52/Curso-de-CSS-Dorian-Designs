@@ -1,0 +1,18 @@
+/* Con esta linea conseguimos que el body se separe del top y pueda quedar el menu/nav arriba de */
+body {
+  padding-top: 5em;
+}
+
+.menu {
+  background: darkorange;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 2em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.title {
+  margin: 0px;
+}

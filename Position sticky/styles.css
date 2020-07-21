@@ -1,0 +1,33 @@
+/* 
+Position sticky
+
+El elemento conserva su espacio en el flujo.
+
+Si no tiene dimensiones declaradas, sus dimensiones se ajustan al contenido.
+
+Su punto de referencia (contexto) es el viewport (el espacio visible en pantalla)
+
+Al ser un elemento posicionado lo podemos mover en los 3 ejes X Y Z
+*/
+
+.slide {
+  background: darkslategrey;
+  height: 300px;
+  font-size: 3em;
+  text-align: center;
+  line-height: 3em;
+}
+
+.menu {
+  background: fuchsia;
+  text-align: center;
+  font-size: 2em;
+  width: 100%;
+  padding: 0.5em;
+  position: sticky;
+  top: 0;
+}
+
+.title {
+  margin: 0;
+}
