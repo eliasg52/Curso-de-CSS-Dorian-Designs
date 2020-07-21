@@ -1,0 +1,12 @@
+.inline {
+  background: mediumorchid;
+  display: inline;
+  font-size: 2em;
+  bottom: 10px;
+}
+
+.block {
+  background: orangered;
+  display: block;
+  font-size: 2em;
+}
