@@ -1,0 +1,27 @@
+.box {
+  width: 80px;
+  height: 80px;
+  font-size: 1.5em;
+  line-height: 80px;
+  text-align: center;
+  position: relative;
+}
+
+.box1 {
+  background: darkorange;
+  z-index: 30; /* les damos valores altos por si quiero agregar dsp un nuevo elemento y poder darle el valor que este disponible */
+}
+
+.box2 {
+  background: royalblue;
+  top: -40px;
+  right: -40px;
+  z-index: 20;
+}
+
+.box3 {
+  background: mediumorchid;
+  top: -80px;
+  right: -80px;
+  z-index: 10;
+}
