@@ -1,0 +1,26 @@
+/* VARIABLE GLOBAL */
+:root {
+  --color: red;
+  --border: 3px solid darkorange;
+}
+
+.paragraph {
+  color: var(--color);
+}
+
+.article {
+  --color: green;
+}
+/* se pisa el valor ya que funciona en cascado y lo estoy redefiniendo y solo afeta al article */
+
+.check:checked + .box {
+  /* lo asocio con el box xq son hermanos */
+  --color: purple;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: var(--color);
+  border: var(--border);
+}
