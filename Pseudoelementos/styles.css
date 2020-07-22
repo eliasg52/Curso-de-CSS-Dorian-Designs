@@ -1,0 +1,30 @@
+.title::first-letter {
+  color: orangered;
+  font-size: 2em;
+}
+
+.text::first-line {
+  color: darkred;
+  background-color: yellow;
+}
+
+/* ESTO NO FUNCIONA XQ LAS PSEUDOCLASES SOLO FUNCIONAN EN ELEMENTOS EN BLOQUE */
+.inline::first-line {
+  color: red;
+}
+
+.text::selection {
+  color: whitesmoke;
+  background: black;
+}
+
+/* BEFORE & AFTER */
+/* agrego estos caracteres al elemento con clase dolar. Si los quiero seleccionar en la pag, no puedo ya que estos no son parte del DOM */
+
+.dolar::before {
+  content: '$';
+}
+
+.dolar::after {
+  content: '.00';
+}
