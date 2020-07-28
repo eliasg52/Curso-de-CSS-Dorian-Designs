@@ -1,3 +1,13 @@
+/* SITIOS GRATUITOS PARA FUENTES: www.dafont.com/es, www.1001fonts.com
+Para saber que fuente utiliza una pagina web puedo utilizar un pluguin que se llama 'whatFont'
+*/
+
+/* Integrando una fuente descargada */
 body {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'miFuente', cursive;
+}
+
+@font-face {
+  src: url('assets/kongtext.ttf');
+  font-family: 'miFuente';
 }
