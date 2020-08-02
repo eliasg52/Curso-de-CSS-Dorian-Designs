@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+  background-image: radial-gradient(circle, #b94bf8, #3a1957);
+  margin: 0;
+  color: #eee;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 50px 150px 50px;
+  grid-template-rows: 50px 100px 50px;
+  gap: 10px 50px;
+}
+
+.grid-item {
+  border: 1px solid;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+}
