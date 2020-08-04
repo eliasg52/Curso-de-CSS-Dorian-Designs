@@ -1,0 +1,50 @@
+/*
+    Explicit grid:
+        Es el grid que declaramos, tanto con grid-template-columns como con grid-template-rows.
+
+    Implicit grid:
+        Es el grid que no declaramos, los items que quedan fuera del explicit grid.
+
+    grid-auto-columns:
+        Establece qué hacer con las columnas no definidas.
+
+    grid-auto-rows:
+        Establece qué hacer con las filas no definidas.
+    
+    grid-auto-flow:
+        Establece la dirección en la cual se va a pintar el implicit grid. Admite 3 valores: 
+            row(default): Se crearán filas adicionales.
+            column: Se crearán columnas adicionales.
+            dense: Establece qué hacer con los huecos que queden.
+*/
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #eee;
+  font-family: sans-serif;
+  background-image: radial-gradient(circle, #b94bf8, #3a1957);
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 100px);
+
+  /* Columnas implicitas que no fueron declaradas */
+  grid-auto-columns: 100px;
+  grid-auto-flow: column;
+}
+
+.grid-item {
+  border: 0.5px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
