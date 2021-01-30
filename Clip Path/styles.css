@@ -38,5 +38,6 @@ body {
   /*  clip-path: circle(100px); */
   /*   clip-path: ellipse(100px 50px at top); */
   /*   clip-path: inset(20px round 20px); */
-  clip-path: polygon(0 0, 100% 0, 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 0 100%); */
+   clip-path: polygon(50% 0, 0 100%, 0 100%);
 }

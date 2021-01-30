@@ -74,5 +74,7 @@ body {
 
 .box__item {
   text-align: center;
-  line-height: 150px; /* si pongo el mismo valor que la caja, puedo centrarlo verticalmente, estos solo funciona en elementos con un texto de una sola linea */
+  line-height: 150px; /* si pongo el mismo valor que la caja,
+   puedo centrarlo verticalmente, estos solo funciona en elementos con un texto de una sola linea */
 }
+
